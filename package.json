@@ -1,0 +1,25 @@
+{
+  "name": "static-postcss-addon-tree",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 60000"
+  },
+  "author": "Jared Galanis",
+  "license": "ISC",
+  "dependencies": {
+    "broccoli-merge-trees": "^4.2.0",
+    "broccoli-postcss": "^5.1.0",
+    "lodash.get": "^4.4.2",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0"
+  },
+  "devDependencies": {
+    "broccoli-funnel": "^3.0.3",
+    "broccoli-stew": "^3.0.0",
+    "chai": "^4.2.0",
+    "execa": "^4.0.2",
+    "mocha": "^8.0.1"
+  }
+}
