@@ -8,6 +8,9 @@
   },
   "author": "Jared Galanis",
   "license": "ISC",
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "broccoli-merge-trees": "^4.2.0",
     "broccoli-postcss": "^5.1.0",
