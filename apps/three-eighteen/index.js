@@ -7,6 +7,10 @@ module.exports = {
   treeForAddon() {
     var tree = this._super(...arguments);
 
-    return staticPostcssAddonTree(tree, this.app.project);
+    return staticPostcssAddonTree(tree, {
+      addonName: 'three-eighteen',
+      addonFolder: __dirname,
+      project: this.app.project
+    });
   }
 };
