@@ -7,6 +7,7 @@
     "test": "mocha --timeout 60000"
   },
   "author": "Jared Galanis",
+  "repository": "https://github.com/empress/static-postcss-addon-tree",
   "license": "ISC",
   "files": [
     "index.js"
